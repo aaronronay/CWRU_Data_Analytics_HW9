@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Latitude vs. Cloudiness</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no">
+    <link rel="stylesheet" href="main.css"/>
+    <!-- Bootstrap 4 core CSS -->
+    <link href="bootstrap4/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container-fluid">
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="01_landing_page.html"><span class="main">Landing page</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls=" navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        <ul class="nav navbar-nav navbar-right">
+                              <li>
+                                <div class="dropdown">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plots
+                                    <span class="caret"></span></button> 
+                                    <ul class="dropdown-menu">
+                                         <li><a href="02_visual_page_1.html">Latitude vs. Temperature</a></li>
+                                          <li><a href="03_visual_page_2.html">Latitude vs. Humidity</a></li>
+                                         <li><a href="04_visual_page_3.html">Latitude vs. Cloudiness</a></li>
+                                          <li><a href="05_visual_page_4.html">Latitude vs. Windspeed</a></li>
+                                      </ul>
+                                </div>
+                              </li>
+                              <li>
+                                <a class="nav-link" href="06_comparison_page.html"><span class="comp_data">Comparison page</a>
+                             </li>
+                              <li>
+                                <a class="nav-link" href="07_data_page.html"><span class="comp_data">Data source page</a>
+                              </li>
+                        </ul>
+                    </div>
+                </nav>
+                
+                <div class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-8">
+                                <div class="box">
+                                    <div class="page-header">
+                                        <h1 class="title">Cloudiness</h1>
+                                    </div>
+                                    <div class="content">
+                                            <img src="fig3_lat_v_clou.png" alt="Latitude vs. Cloudiness" class="img-responsive">
+                                            <p class="category">There is no relationship between Latitude and Cloudiness however, a strong band of cities sits at 0, 80, and 100% cloudiness.
+                                            </p>
+                                         </div>
+                                     </div>
+                                 </div>
+             
+                                 <div class="col-sm-12 col-md-4">
+                                     <div class="box">
+                                         <div class="header">
+                                             <h1 class="title">Visualizations</h1>
+                                         </div>
+                                         <div class="content">
+                                                <a href="02_visual_page_1.html"><img src="fig1_lat_v_temp.png" alt="Latitude vs. Temperature" height="160" width="160"></a>
+                                                <a href="03_visual_page_2.html"><img src="fig2_lat_v_hum.png" alt="Latitude vs. Humidity" height="160" width="160"></a>
+                                                <a href="04_visual_page_3.html"><img src="fig3_lat_v_clou.png" alt="Latitude vs. Cloudiness" height="160" width="160"></a>
+                                                <a href="05_visual_page_4.html"><img src="fig4_lat_v_wind.png" alt="Latitude vs. Wind Speed" height="160" width="160"></a>
+                                             </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+        <!--   Core JS Files   -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <script src="bootstrap4/js/bootstrap.min.js" type="text/javascript"></script>
+    </body>
+    </html>
